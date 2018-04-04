@@ -66,5 +66,4 @@ packages:
 # compiler-check: newer-minor
 #
 nix:
-    enable: true
     packages: []
