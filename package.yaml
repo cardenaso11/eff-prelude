@@ -24,6 +24,31 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - freer-simple
+  - random
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wredundant-constraints
+
+default-extensions:
+- ConstraintKinds
+- DataKinds
+- DeriveFunctor
+- FlexibleContexts
+- FlexibleInstances
+- FunctionalDependencies
+- GADTs
+- LambdaCase
+- MultiParamTypeClasses
+- RankNTypes
+- ScopedTypeVariables
+- TypeApplications
+- TypeOperators
 
 executables:
   eff-prelude-exe:
